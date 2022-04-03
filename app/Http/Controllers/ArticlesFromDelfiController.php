@@ -19,7 +19,7 @@ class ArticlesFromDelfiController extends Controller
         $page->filter('.CBarticleTitle')->each(function ($item){
             if($this->counter<10){
                 //delfi premium login niuansas...
-                if(!Str::contains($item->attr('href'), ['login','verslasplius', 'plius'])) {
+                if(!Str::contains($item->attr('href'), ['login','verslasplius', 'plius', 'video'])) {
                     //funkcija, kuri gauna straipsnio duomenis
                     $this->getData($item->attr('href'));
                 }
