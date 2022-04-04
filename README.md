@@ -9,7 +9,6 @@
 ## Reikalavimai
 - PHP
 - MySql DB
-- local server (xampp, open server)
 - Composer
 
 ## Projekto paleidimas
